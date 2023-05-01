@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+    border-radius: 35%;
+    margin-top: 50px;
+}
+
+h2 { 
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top:10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#main {
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h4{
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
