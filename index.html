@@ -93,21 +93,7 @@
     </ul>
   </div>
 
-  <div style="padding-left: 10px; padding-top: 20px; padding-bottom: 20px; font-size: 14px; color: #666;">
-    <p>Visits: <span id="counter">0</span></p>
-  </div>
-
-  <script>
-    window.addEventListener('load', function() {
-      let count = localStorage.getItem('visitCount');
-      if (count === null) {
-        count = 1;
-      } else {
-        count = parseInt(count) + 1;
-      }
-      localStorage.setItem('visitCount', count);
-      document.getElementById('counter').textContent = count;
-    });
-  </script>
+  <script data-goatcounter="https://devanshkhandelwal.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
